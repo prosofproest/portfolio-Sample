@@ -1,0 +1,30 @@
+# Dependencies and generated output
+node_modules/
+**/node_modules/
+dist/
+build/
+
+# Environment variables and local configuration
+.env
+.env.*
+!.env.example
+*.env
+.npmrc
+
+# Credentials, private keys, and secret files
+.secrets/
+secrets.*
+credentials.*
+*credentials*
+*_secret*
+*api_key*
+*.pem
+*.key
+*.p12
+*.pfx
+*.p8
+service-account*.json
+
+# Operating system metadata
+.DS_Store
+**/.DS_Store
